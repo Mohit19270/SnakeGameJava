@@ -3,12 +3,12 @@ package SnakeGameJava;
 import javax.swing.JFrame;
 
 public class SnakeGame extends JFrame {
-  public SnakeGame() {
+  public SnakeGame() { 
     super("Snake Game");
     add(new Board());
     pack();
     setLocationRelativeTo(null);
-    setSize(300, 300);
+    setSize(500, 700);
     setResizable(false);
 
   }
